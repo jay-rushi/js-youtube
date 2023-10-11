@@ -36,3 +36,11 @@ const myFunction = function(){                 // function is function(){}
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//**********************  imp  *****************
+//*what ever function you have to give you have to assign it before keyoperator for ex string then(somenumber)* )
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)  
+
