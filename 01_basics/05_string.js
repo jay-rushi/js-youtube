@@ -8,13 +8,13 @@ const repoCount = 50
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('hitesh-hc-com')  //this method of string is used for many ways (practise various functions of it)
-
+//(*we have to use the new string function only then we will be able to get the desired output for the keyword*)
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
 
 
 // console.log(gameName.length);
-// console.log(gameName.toUpperCase());
+// console.log(gameName.toUpperCase()); //*anything that is used after . is function this is the way to assign function to an object)
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
