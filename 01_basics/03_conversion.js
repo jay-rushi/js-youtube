@@ -13,7 +13,7 @@ let valueInNumber = Number(score)
 //  true => 1; false => 0
 // string values ("") => also return NaN
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "hitesh"     //(*for string even if 0 boolean returns true but for int 0 it returns boolean false *)
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
@@ -24,7 +24,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let someNumber = 33
 
-let stringNumber = String(someNumber)
+let stringNumber = String(someNumber)   //*what ever function you have to give you have to assign it before keyoperator for ex string then(somenumber)* )
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
