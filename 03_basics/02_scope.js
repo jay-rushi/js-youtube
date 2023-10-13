@@ -52,7 +52,7 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5)                                               //* very imp when using variable the keyword of variable is used even in the arguments of function ending to print out the result*
 const addTwo = function(num){                           //* method 2 to declare a function here addtwo will give error because it is outside the variable stored value* 
     return num + 2                                      //* there are variety of methods to declare functions this is called as hosting*
 }
